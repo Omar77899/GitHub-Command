@@ -1,0 +1,18 @@
+
+
+
+check
+git config --global user.name
+git config --global user.email
+
+add user
+git config --global user.name "asif-daffodil"
+git config --global user.email "asidbddhk4v@gmail.com"
+
+for add
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mukta220063/demoproject.git
+git push -u origin main
